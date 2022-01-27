@@ -63,20 +63,20 @@ RESULT:
 
 - Create a new firebase Project
     
-    ![Capture5.JPG](/images/Capture5.JPG)
+    ![Capture5.JPG](/images/Capture5.jpg)
     
-    ![Capture6.JPG](/images/Capture6.JPG)
+    ![Capture6.JPG](/images/Capture6.jpg)
     
 
 ### Adding an android app to in the poject
 
 - Create an android app by clicking the icon.
     
-    ![Capture7.JPG](/images/Capture7.JPG)
+    ![Capture7.JPG](/images/Capture7.jpg)
     
 - Give the required details
     
-    ![Capture8.JPG](/images/Capture8.JPG)
+    ![Capture8.JPG](/images/Capture8.jpg)
     
     - **Android package Name**
         
@@ -98,11 +98,11 @@ RESULT:
     
     andriod>app>[paste here]
     
-    ![Capture10.JPG](/images/Capture10.JPG)
+    ![Capture10.JPG](/images/Capture10.jpg)
     
 - Paste the codes in the gradle files.
     
-    ![Capture11.JPG](/images/Capture11.JPG)
+    ![Capture11.JPG](/images/Capture11.jpg)
 
     
 - Import the required dart  packages in pubspec.yaml file
@@ -129,7 +129,7 @@ RESULT:
     }
     ```
     
-    ![Capture16.JPG](/images/Capture16.JPG)
+    ![Capture16.JPG](/images/Capture16.jpg)
     
 - Run the app in android
     - If the app is running properly then you implemented firebase in your app.
@@ -137,7 +137,7 @@ RESULT:
     - On possible error might be minimum sdk version, by default it will be 16 but firebase requires 19 and above (mainly firebase analytics)
     - you can update the min sdk version in build.gradle in the app file
 
-![Capture19.JPG](/images/Capture19.JPG)
+![Capture19.JPG](/images/Capture19.jpg)
 
 ---
 
@@ -145,19 +145,19 @@ RESULT:
 
 - Create a web app in the firebase console.
     
-    ![Capture7.JPG](/images/Capture7.JPG)
+    ![Capture7.JPG](/images/Capture7.jpg)
     
 - Give the necessary detial to create the app(skip and continue the other steps)
     
-    ![Capture13.JPG](/images/Capture13.JPG)
+    ![Capture13.JPG](/images/Capture13.jpg)
     
 - Go to the project setting and copy the firebaseConfig code
     
-    ![Capture14.JPG](/images/Capture14.JPG)
+    ![Capture14.JPG](/images/Capture14.jpg)
     
 - Paste the code in the dart main function as options parameter in firebase initializeApp function.
     
-    ![Capture17.JPG](/images/Capture17.JPG)
+    ![Capture17.JPG](/images/Capture17.jpg)
     
 - Adding the following scripts to the index.html file in the following directory
     
